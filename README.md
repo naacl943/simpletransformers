@@ -1,3 +1,22 @@
+# DATE code (simpletransformers fork)
+
+**DATE code**: https://github.com/naacl943/simpletransformers
+
+* Fork simpletransformers lib: https://github.com/naacl943/simpletransformers 
+
+* The AD model train routine: train_model_anomaly function in language_modeling/language_modeling_model.py 
+
+* The AD scoring routine: test_anomaly function in language_modeling/language_modeling_model.py 
+
+* The Electra RMD head: ElectraRMD class in custom_models/models.py
+
+* The DATE (Electra + RMD & RTD) model: ElectraForLanguageModelingModel class in custom_models/models.py 
+
+* Dataset loading and Token masking in language_modeling/language_modeling_utils.py
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Downloads](https://pepy.tech/badge/simpletransformers)](https://pepy.tech/project/simpletransformers)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-67-orange.svg?style=flat-square)](#contributors-)
